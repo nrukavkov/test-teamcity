@@ -44,7 +44,7 @@ object Build : BuildType({
 
     steps {
         script {
-            scriptContent = "cat script.sh"
+            scriptContent = """echo "main""""
         }
     }
 
